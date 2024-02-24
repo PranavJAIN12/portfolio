@@ -6,7 +6,7 @@ import { Link } from 'react-scroll';
 export default function Navbar() {
   return (
     <nav className='navbar'>
-        <h1 className='navbar-head'>Pranav Jain</h1>
+        <h1 className='navbar-head'><span style={{color:"#DA0037"}}>P</span>ranavJain.</h1>
             <div className='desktopMenu'>
                 <Link className='desktopMenuListItem'>Home</Link>
                 <Link className='desktopMenuListItem'>About</Link>

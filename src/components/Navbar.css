@@ -20,10 +20,10 @@
 .navbarBtn{
     appearance: none;
     background-color: transparent;
-    border: 2px solid #1A1A1A;
+    border: 2px solid #EDEDED;
     border-radius: 15px;
     box-sizing: border-box;
-    color: #3B3B3B;
+    color: #EDEDED;
     cursor: pointer;
     display: inline-block;
     font-size: 16px;
@@ -48,8 +48,8 @@
   }
   
   .navbarBtn:hover {
-    color: #fff;
-    background-color: #1A1A1A;
+    color: #000;
+    background-color: #EDEDED;
     box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
     transform: translateY(-2px);
   }
@@ -68,7 +68,8 @@
     margin: 1rem;
   }
   .desktopMenuListItem:hover{
-    color: #1A1A1A;
-    border-bottom: 1px solid black;
+    color: #DA0037;
+    border-bottom: 1px solid #DA0037;
+    transition: 1s;
     padding-bottom: 0.5rem;
   }
