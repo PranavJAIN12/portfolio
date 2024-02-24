@@ -1,0 +1,4 @@
+background: #F1FADA
+data: #2D9596
+heading:#265073
+sub head: #9AD0C2 
