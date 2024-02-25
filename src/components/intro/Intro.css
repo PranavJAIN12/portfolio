@@ -7,7 +7,9 @@
     margin: 0 auto;
     overflow: hidden;
     position: relative;
+    background: radial-gradient(circle at 50% 50%, rgba(255, 0, 0, 0.3) 5%, transparent 50%); /* Adjust gradient colors and position */
 }
+
 .bg{
     position: absolute;
     top: 4rem;
@@ -81,6 +83,13 @@
   .hire-btn:active {
     box-shadow: none;
     transform: translateY(0);
+  }
+  .links{
+    margin: 1rem;
+    cursor: pointer;
+  }
+  .link-item{
+    margin-right: 1rem;
   }
 
   @media screen and (max-width:840px) {
