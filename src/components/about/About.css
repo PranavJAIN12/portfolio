@@ -1,0 +1,62 @@
+.about {
+    overflow: hidden; 
+    width: 85%; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+    padding: 0; /* Remove any default padding */
+}
+.about-title{
+    font-size: 3rem;
+    font-weight: 600;
+    padding-top: 3rem;
+    margin-bottom: 1.5rem;
+}
+.about-data{
+    font-weight: 400;
+    font-size: 1.2rem;
+    max-width: auto;
+    padding: 0 2rem;
+}
+#skills{
+    margin-top: 2rem;
+    background-color: #1f1f1f ;
+    color: #EDEDED;
+    text-align: center;
+    width: 80%;
+}
+#skills .skills-data p{
+    font-size: 1.2rem;
+    padding-top: 2%;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 20px;
+    text-align: center;
+    width: 80%;
+    margin: 5% 20px 5% 20px ;
+  }
+
+  .card img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+  }
+
+  .card p {
+    margin-top: 10px;
+  }
+.container {
+    display: flex;
+    justify-content: center;
+  }
