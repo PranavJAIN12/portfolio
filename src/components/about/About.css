@@ -24,10 +24,15 @@
 }
 #skills{
     margin-top: 2rem;
-    background-color: #1f1f1f ;
-    color: #EDEDED;
+    /* background-color: #333333 ; */
+     background-color: #f6f7ff;
+    /* color: #EDEDED; */
+    color: black;
     text-align: center;
     width: 100%;
+    /* border-radius: 2%; */
+    border-style: dotted;
+    border-color: black;
 }
 
 
@@ -51,8 +56,9 @@
     /* border-radius: 50%; */
   }
 
-  .card p {
-    margin-top: 10px;
+  .card img:hover{
+    transition: 0.5s;
+    transform: translateY(-7px);
   }
 .container {
     display: flex;

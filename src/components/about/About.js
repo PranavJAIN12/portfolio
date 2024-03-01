@@ -21,7 +21,7 @@ export default function About() {
         <div class="skill-card">
             <div class="container">
                 <div class="card">
-                  <img src={html} alt="Skill 1"/>
+                  <img className='skill-img' src={html} alt="Skill 1"/>
                   {/* <p>Skill 1</p> */}
                 </div>
                 <div class="card">
