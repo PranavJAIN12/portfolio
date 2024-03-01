@@ -35,10 +35,10 @@
     width: 100%;
     margin: 0.5rem 0;
     padding: 0.5rem 1rem;
-    color: white;
-    border: none;
+    color: black;
+    border: 1px solid black;
     border-radius: 0.5rem;
-    background: rgb(40, 40, 40);
+    background: rgb(255, 255, 255);
 }
 
 .submit-btn {

@@ -1,7 +1,7 @@
 /* eslint-disable jsx-a11y/alt-text */
 import React from 'react'
 import './Intro.css'
-import photo from '../../assets/man.png'
+import photo from '../../assets/1.png'
 // import { Link } from 'react-scroll' 
 import github from '../../assets/github.png'
 import linkedin from '../../assets/linkedin.png'

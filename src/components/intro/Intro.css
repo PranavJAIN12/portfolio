@@ -7,7 +7,7 @@
     margin: 0 auto;
     overflow: hidden;
     position: relative;
-    background: radial-gradient(circle at 50% 50%, rgba(255, 0, 0, 0.3) 5%, transparent 50%); /* Adjust gradient colors and position */
+    /* background: radial-gradient(circle at 50% 50%, #f6f7ff 5%, transparent 50%);  */
 }
 
 .bg{
@@ -46,10 +46,10 @@
 .hire-btn{
     appearance: none;
     background-color: transparent;
-    border: 2px solid #EDEDED;
+    border: 2px solid #000000;
     border-radius: 15px;
     box-sizing: border-box;
-    color: #EDEDED;
+    color: #000000;
     cursor: pointer;
     display: inline-block;
     font-size: 16px;
@@ -66,7 +66,7 @@
     user-select: none;
     -webkit-user-select: none;
     touch-action: manipulation;
-    width: 15%;
+    width: 20%;
     will-change: transform;
   }
   .hire-btn:disabled {

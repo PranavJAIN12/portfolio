@@ -12,7 +12,7 @@
     top: 0;
     z-index: 3;
     position: sticky;
-    background: rgb(23, 23, 23);
+    background: rgb(255, 255, 255);
 
 }
 .navbar .navbar-head{
@@ -21,10 +21,10 @@
 .navbarBtn{
     appearance: none;
     background-color: transparent;
-    border: 2px solid #EDEDED;
+    border: 2px solid #000000;
     border-radius: 15px;
     box-sizing: border-box;
-    color: #EDEDED;
+    color: #000000;
     cursor: pointer;
     display: inline-block;
     font-size: 16px;
