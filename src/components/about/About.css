@@ -47,6 +47,8 @@
     text-align: center;
     /* width: 40%; */
     margin: 5% 20px 5% 20px ;
+    flex-basis: 80%;
+
   }
 
   .card img {
@@ -64,3 +66,25 @@
     display: flex;
     justify-content: center;
   }
+
+  @media screen and (max-width: 480px) {
+    .about-data {
+      padding: 0%;
+    }
+    .card {
+      flex-flow: row wrap;
+      overflow: auto;
+      flex-basis: 50%;
+      width: 50%; /* Adjust the width of each card */
+      margin:5% auto; /* Center the cards */
+    }
+    .container {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap; /* Ensure containers wrap on smaller screens */
+    }
+    .card img{
+      margin: auto;
+    }
+  }
+  

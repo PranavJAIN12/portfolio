@@ -13,6 +13,7 @@
     z-index: 3;
     position: sticky;
     background: rgb(255, 255, 255);
+    overflow: hidden;
 
 }
 .navbar .navbar-head{

@@ -1,7 +1,6 @@
 #intro{
     height: calc(100vh - 4rem);
     width: 85%;
-    /* width: 100vw; */
     max-width: 90%;
     /* margin: 2rem auto; */
     margin: 0 auto;
@@ -12,7 +11,7 @@
 
 .bg{
     position: absolute;
-    top: 4rem;
+    top: 3rem;
     right: 0;
     z-index: -1;
     object-fit: cover;
@@ -20,7 +19,7 @@
     
 }
 .introContent{
-    height: 100vh;
+    height: 95vh;
     width:100vh;
     padding: 2rem;
     font-size: 1.5rem;
@@ -107,10 +106,17 @@
   }
   @media screen and (max-width:480px) {
     .bg{
-        right: -20vw;
+        /* right: -20vw; */
+        display: none;
     }
     .introContent{
-        overflow:hidden
+        padding: 0%;
+        width: auto;
+        font-size: 55%;
+        
+    }
+    .hire-btn{
+      width: auto;
     }
     
   }

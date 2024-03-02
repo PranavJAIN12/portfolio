@@ -19,7 +19,7 @@
 .portfolio-data{
     font-weight: 400;
     font-size: 1.2rem;
-    max-width: 85%;
+    /* max-width: 85%; */
     padding: 0 2rem;
 }
 .workImgs{
@@ -111,10 +111,22 @@
 @media screen and (max-width:480px) {
     .portfolio{
         font-size: 55%;
+        padding: 0%;
+    }
+    .portfolio-data{
+        width: 100%;
     }
     .workImg{
         width: 200px;
         height: 48vw;
+    }
+    .workImg{
+        height: 30rem;
+        width: auto;
+        margin: 0%;
+    }
+    .seemore{
+        width: 100%;
     }
 }
     

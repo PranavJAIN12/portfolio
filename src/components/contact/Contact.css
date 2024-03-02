@@ -20,7 +20,7 @@
 .contact-data {
     font-weight: 400;
     font-size: 1.2rem;
-    max-width: 85%;
+    /* max-width: 85%; */
     padding: 0 2rem;
 }
 
@@ -44,14 +44,23 @@
 .submit-btn {
     font-size: medium;
     padding: 0.5rem 1rem;
-    color: white;
-    background-color: #DA0037; /* changed button color to match title */
-    border: none;
+    color: black;
+    background-color: white; /* changed button color to match title */
+    border: 2px solid black;
     border-radius: 0.5rem;
     cursor: pointer;
     transition: background-color 0.3s ease;
+    font-weight: 400;
 }
 
 .submit-btn:hover {
     background-color: #ff4d6b; /* lightened button color on hover */
+}
+@media screen and (max-width:480px) {
+    .contact{
+        padding: 0%;
+    }
+    .contact-data{
+        width: 100%;
+    }
 }

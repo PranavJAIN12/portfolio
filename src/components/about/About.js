@@ -4,6 +4,10 @@ import html from '../../assets/html.png'
 import css from '../../assets/css.png'
 import git from '../../assets/git.png'
 import js from '../../assets/js.png'
+import react from '../../assets/react.png'
+import bootstrap from '../../assets/bootstrap.png'
+import cpp from '../../assets/cpp.png'
+
 
 export default function About() {
   return (
@@ -34,6 +38,18 @@ export default function About() {
                 </div>
                 <div class="card">
                   <img src={git} alt="Skill 3"/>
+                  {/* <p>Skill 4</p> */}
+                </div>
+                <div class="card">
+                  <img src={react} alt="Skill 3"/>
+                  {/* <p>Skill 4</p> */}
+                </div>
+                <div class="card">
+                  <img src={bootstrap} alt="Skill 3"/>
+                  {/* <p>Skill 4</p> */}
+                </div>
+                <div class="card">
+                  <img src={cpp} alt="Skill 3"/>
                   {/* <p>Skill 4</p> */}
                 </div>
                 
