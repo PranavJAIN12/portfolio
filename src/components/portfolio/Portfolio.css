@@ -1,4 +1,4 @@
-.portfolio {
+#portfolio {
     min-height: calc(100vh-4rem);
     /* overflow: hidden;  */
     width: 85%; 
@@ -109,12 +109,13 @@
     transform: translateY(0);
   }
 @media screen and (max-width:480px) {
-    .portfolio{
+    #portfolio{
         font-size: 55%;
         padding: 0%;
     }
     .portfolio-data{
         width: 100%;
+        padding: 0%;
     }
     .workImg{
         width: 200px;

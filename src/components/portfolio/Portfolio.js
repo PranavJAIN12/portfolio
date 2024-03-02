@@ -7,7 +7,7 @@ import work4 from '../../assets/portfolio-4.png'
 
 export default function Portfolio() {
   return (
-    <section className="portfolio">
+    <section id="portfolio">
             <span className='portfolio-title'>My <span style={{color: "#DA0037"}}>Projects</span></span><br/>
             <span className='portfolio-data'>Hello! I'm Pranav Jain, currently pursuing my Bachelor's degree in Computer Science and Engineering. With a passion for technology and a keen interest in problem-solving, I am dedicated to honing my skills as a developer and coder</span>
             <div className='workImgs'>
