@@ -8,6 +8,7 @@ import Intro from "./components/intro/Intro";
 import 'react-perfect-scrollbar/dist/css/styles.css';
 import PerfectScrollbar from 'react-perfect-scrollbar'
 import Portfolio from "./components/portfolio/Portfolio";
+import Details from "./components/details/Details";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <Intro/>
       <About/>
       <Portfolio/>
+      <Details/>
       <Contact/>
       <Footer/>
       </PerfectScrollbar>
