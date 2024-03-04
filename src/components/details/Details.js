@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/img-redundant-alt */
 import React from "react";
 import "./Details.css";
 import photo from "../../assets/portfolio-1.png";
