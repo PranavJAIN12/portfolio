@@ -30,9 +30,11 @@ export default function Details() {
            <span style={{fontWeight: '650', textAlign: 'left'}}>E-mail</span> :  masterpranavjain2@gmail.com
         </p>
         <div className="details-links">
-          <img src={linkedin} alt="linkdein" className="links-img" />
-          <img src={twitter} alt="twitter" className="links-img" />
-          <img src={github} alt="github" className="links-img" />
+        <a href='https://www.linkedin.com/in/pranav-jain-32179722a/' target="_blank" rel="noopener noreferrer" ><img className='links-img' src={linkedin} alt="linkedin"></img></a>
+        <a href='https://www.linkedin.com/in/pranav-jain-32179722a/' target="_blank" rel="noopener noreferrer" ><img className='links-img' src={twitter} alt="twitter"></img></a>
+        <a href='https://www.github.com/PranavJain12' target="_blank" rel="noopener noreferrer" ><img className='links-img' src={github} alt="github"></img></a>
+
+          
         </div>
       </div>
     </section>

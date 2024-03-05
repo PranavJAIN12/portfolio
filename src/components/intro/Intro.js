@@ -15,8 +15,8 @@ export default function Intro() {
             <p className='intro-para'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vitae eum dolor itaque ad at, voluptate deleniti, alias necessitatibus magni veritatis recusandae veniam perspiciatis!</p>
         <button className='hire-btn'>Hire me</button>
         <div className='links'>
-           <a href='www.github.com/PranavJain12'> <img className='link-item' style={{backgroundColor:'white ', borderRadius:'100%'}} src={github}></img></a>
-            <img className='link-item' src={linkedin}></img>
+           <a href='https://www.github.com/PranavJain12' target='_blank' rel="noopener noreferrer"> <img className='link-item' style={{backgroundColor:'white ', borderRadius:'100%'}} src={github}></img></a>
+            <a href='https://www.linkedin.com/in/pranav-jain-32179722a/' ><img className='link-item' src={linkedin}></img></a>
         </div>
         </div>
         <img className='bg' src={photo} />

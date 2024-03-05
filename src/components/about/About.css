@@ -24,10 +24,10 @@
 }
 #skills{
     margin-top: 2rem;
-    /* background-color: #333333 ; */
-     background-color: #f6f7ff;
-    /* color: #EDEDED; */
-    color: black;
+    
+     background-color: #333333;
+    color: #EDEDED;
+    /* color: white; */
     text-align: center;
     width: 100%;
     /* border-radius: 2%; */
