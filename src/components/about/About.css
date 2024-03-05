@@ -89,8 +89,10 @@
   }
 
   .card img:hover{
-    transition: 0.5s;
-    transform: translateY(-7px);
+    transition: 0.5s all;
+    cursor: pointer;
+     height: 90px;
+     width: auto;
   }
 .container {
     display: flex;
