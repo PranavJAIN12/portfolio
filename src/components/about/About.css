@@ -34,7 +34,37 @@
     border-style: dotted;
     border-color: black;
 }
+.spiral{
+  position: absolute;
+  right: 20px;
+  animation: moveUpDown 1s ease-in-out infinite alternate; 
+  height: 75px;
+}
+@keyframes moveUpDown {
+  0%{
+    transform: translateY(0px);
+  }
+  100%{
+    transform: translateY(-30px);
+  }
+  
+}
 
+
+.spiral2{
+  position: absolute;
+  left: 10px;
+  animation: moveUpDown 1s ease-in-out infinite alternate; 
+}
+@keyframes moveUpDown {
+  0%{
+    transform: translateY(0px);
+  }
+  100%{
+    transform: translateY(-30px);
+  }
+  
+}
 
 .card {
     display: flex;

@@ -1,12 +1,13 @@
 import React from 'react'
 import './About.css'
-import html from '../../assets/html.png'
-import css from '../../assets/css.png'
+import html from '../../assets/html5.png'
+import css from '../../assets/css3.png'
 import git from '../../assets/git.png'
 import js from '../../assets/js.png'
 import react from '../../assets/react.png'
 import bootstrap from '../../assets/bootstrap.png'
 import cpp from '../../assets/cpp.png'
+import spiral from '../../assets/spiral.png'
 
 
 export default function About() {
@@ -23,6 +24,8 @@ export default function About() {
         
         
         <div className="skill-card">
+        <img src={spiral} alt='spiral' className='spiral'></img>
+        <img src={spiral} alt='spiral' className='spiral2'></img>
             <div className="container">
                 <div className="card">
                   <img className='skill-img' src={html} alt="Skill 1"/>

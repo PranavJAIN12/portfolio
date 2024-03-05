@@ -1,6 +1,7 @@
 import React, { useRef } from 'react'
 import './Contact.css'
 import emailjs from '@emailjs/browser';
+import contact from '../../assets/typing_2.png'
 
 export default function Contact() {
   const form = useRef();
@@ -35,6 +36,7 @@ export default function Contact() {
 
     <label htmlFor="message">Your Message:</label>
     <textarea id='message' name='message' className='input-field' placeholder='Your Message' rows={5} required></textarea>
+    <img src={contact} className='typing-img' alt='contactimg' />
 
     <button type='submit' className='submit-btn'>Submit</button>
   </form>

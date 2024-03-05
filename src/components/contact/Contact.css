@@ -40,6 +40,20 @@
     border-radius: 0.5rem;
     background: rgb(255, 255, 255);
 }
+.typing-img {
+    position: absolute;
+    right: 69px;
+    animation: moveUpDown 1s ease-in-out infinite alternate; 
+}
+
+@keyframes moveUpDown {
+    0% {
+        transform: translateY(0px);
+    }
+    100% {
+        transform: translateY(30px); /* Adjust the distance to move up and down */
+    }
+}
 
 .submit-btn {
     font-size: medium;

@@ -16,6 +16,24 @@
     padding-top: 3rem;
     margin-bottom: 1.5rem;
 }
+.bulb{
+    position: absolute;
+    right: 39px;
+    top: 37%;
+    animation: scaleAnimation 1s infinite forwards; 
+}
+
+@keyframes scaleAnimation {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.2); /* Scale up by 20% */
+    }
+    100% {
+        transform: scale(1);
+    }
+}
 .portfolio-data{
     font-weight: 400;
     font-size: 1.2rem;
