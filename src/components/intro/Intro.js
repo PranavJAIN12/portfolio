@@ -17,7 +17,9 @@ export default function Intro() {
         <div className="introContent">
             <span className='hello'>Hello,</span><br/>
             <span className='name'>I'm <span className='name-name'style={{color:'#DA0037'}}>Pranav</span><br/>A Web Developer</span>
-            <p className='intro-para'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vitae eum dolor itaque ad at, voluptate deleniti, alias necessitatibus magni veritatis recusandae veniam perspiciatis!</p>
+            <p className='intro-para'>Welcome to Pranav Jain's Portfolio<br></br>
+Discover my projects, explore my skills, and get to know me better.<br></br>
+A passionate developer with a knack for creating innovative solutions.</p>
         <button className='hire-btn' role='button' onClick={contact}>Hire me</button>
         <div className='links'>
            <a href='https://www.github.com/PranavJain12' target='_blank' rel="noopener noreferrer"> <img className='link-item' style={{backgroundColor:'white ', borderRadius:'100%'}} src={github}></img></a>
