@@ -16,10 +16,14 @@ export default function Navbar() {
         console.log("going to contact section");
         document.querySelector('.contact').scrollIntoView({ behavior: 'smooth' });
     };
+    const navbarHead=()=>{
+        console.log("button clicked");
+        window.location.reload();
+    }
 
     return (
         <nav className='navbar'>
-            <h1 className='navbar-head'>
+            <h1 className='navbar-head' onClick={navbarHead}>
                 <span style={{ color: "#DA0037" }}>P</span>ranavJain.
             </h1>
             <div className='desktopMenu'>
