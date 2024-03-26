@@ -3,7 +3,7 @@
     width: 85%;
     max-width: 90%;
     /* margin: 2rem auto; */
-    margin: 2.3rem auto;
+    margin: 4rem auto;
     overflow: hidden;
     position: relative;
     /* background: radial-gradient(circle at 50% 50%, #f6f7ff 5%, transparent 50%);  */
@@ -23,7 +23,7 @@
     width:100vh;
     padding: 2rem;
     font-size: 1.5rem;
-    margin-top: 2rem;
+    margin-top: 4rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
