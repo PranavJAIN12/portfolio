@@ -5,6 +5,7 @@ import photo from "../../assets/portfolio-1.png";
 import linkedin from "../../assets/linkedin.png";
 import twitter from "../../assets/twitter.png";
 import github from "../../assets/github.png";
+import profilePic from '../../assets/profilepic.png'
 
 export default function Details() {
   return (
@@ -13,7 +14,7 @@ export default function Details() {
         About <span style={{ color: "#DA0037" }}>Me</span>
       </span>
       <div className="detailsec">
-        <img src={photo} alt="photo" className="details-photo"></img>
+        <img src={profilePic} alt="photo" className="details-photo" style={{height:"300px"}}></img>
         <p className="details-data">
           Hello! I'm Pranav Jain, currently pursuing my Bachelor's degree in
           Computer Science and Engineering. With a passion for technology and a

@@ -8,7 +8,7 @@ import 'react-perfect-scrollbar/dist/css/styles.css';
 import PerfectScrollbar from 'react-perfect-scrollbar';
 import Portfolio from "./components/portfolio/Portfolio";
 import Details from "./components/details/Details";
-import { motion, useInView, useAnimation } from 'framer-motion';
+import { motion, useInView } from 'framer-motion';
 
 function App() {
   
