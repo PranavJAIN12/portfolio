@@ -26,7 +26,7 @@ export default function Details() {
           efficient algorithms to implementing scalable solutions, I am
           committed to delivering high-quality software that meets the needs of
           users and exceeds expectations.<br/><br/>
-           <span style={{fontWeight: '650', textAlign: 'left', paddingTop:'2rem'}}>Expertise</span>: Full Stack Web Development<br/>
+           <span style={{fontWeight: '650', textAlign: 'left', paddingTop:'2rem'}}>Expertise</span>:  Web Development<br/>
            {/* <span style={{fontWeight: '650', textAlign: 'left'}}>Experience</span> : 4 Years<br/> */}
            <span style={{fontWeight: '650', textAlign: 'left'}}>E-mail</span> :  masterpranavjain2@gmail.com
         </p>
