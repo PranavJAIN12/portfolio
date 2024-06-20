@@ -121,3 +121,11 @@
       display: none;
     }
 }
+@media screen and (max-width: 480px) {
+  .mobMenu{
+    height: 40px;
+    width: auto;
+
+  }
+  
+}

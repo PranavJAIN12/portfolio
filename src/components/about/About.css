@@ -118,5 +118,11 @@
     .card img{
       margin: auto;
     }
+    .spiral{
+      display: none;
+    }
+    .spiral2{
+      display: none;
+    }
   }
   
